@@ -63,6 +63,9 @@ from the left wing or the left side of the pitch. Conversely, during the second 
 passes gravitate towards the left midfield. This indicates heavy involvement from the Left Mid,
 CM, and Left Wing in the passing dynamics, albeit with more dispersion compared to the first
 half.
+![before_half](https://github.com/nayeem92/Dissecting-A-Winning-Team-s-Passing-Game-Inter-Miami-vs-Toronto-FC/assets/44882242/355ea38e-896a-43b3-85a5-075a0e84ee8d)
+![after_halftime](https://github.com/nayeem92/Dissecting-A-Winning-Team-s-Passing-Game-Inter-Miami-vs-Toronto-FC/assets/44882242/d035dcde-3830-4bd4-b268-80f632fba5b8)
+
 ## Passing Dynamics Visualization
 However, analyzing solely the starting coordinates of passes doesn’t offer a comprehensive view
 of their progression or defensive nature. Therefore, we further analyze the passing data by
