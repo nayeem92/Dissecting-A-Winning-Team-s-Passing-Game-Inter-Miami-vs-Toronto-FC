@@ -66,7 +66,7 @@ half.
 ![before_half](https://github.com/nayeem92/Dissecting-A-Winning-Team-s-Passing-Game-Inter-Miami-vs-Toronto-FC/assets/44882242/355ea38e-896a-43b3-85a5-075a0e84ee8d)
 ![after_halftime](https://github.com/nayeem92/Dissecting-A-Winning-Team-s-Passing-Game-Inter-Miami-vs-Toronto-FC/assets/44882242/d035dcde-3830-4bd4-b268-80f632fba5b8)
 
-## Passing Dynamics Visualization
+## Pass Flow Analysis
 However, analyzing solely the starting coordinates of passes doesn’t offer a comprehensive view
 of their progression or defensive nature. Therefore, we further analyze the passing data by
 considering both the starting and ending coordinates of each pass. Even after segmenting
@@ -74,7 +74,13 @@ passes and their directions between the two halves, the pitch chart remains dens
 Consequently, we opt for a pass flow map to provide a general overview of pass flow directions
 across different pitch areas. Notably, we observe a substantial number of progressive passes
 from center midfield to the left wing.
-## Pass Flow Analysis
+
+![before_half_pass](https://github.com/nayeem92/Dissecting-A-Winning-Team-s-Passing-Game-Inter-Miami-vs-Toronto-FC/assets/44882242/6b21c4ce-3630-41cb-983f-ae23f3e19f28)
+![after_half_pass](https://github.com/nayeem92/Dissecting-A-Winning-Team-s-Passing-Game-Inter-Miami-vs-Toronto-FC/assets/44882242/d11102c2-1660-40b5-99f6-18ef9d709a09)
+![passflow](https://github.com/nayeem92/Dissecting-A-Winning-Team-s-Passing-Game-Inter-Miami-vs-Toronto-FC/assets/44882242/b51298de-3a20-4219-b9c6-71b27c0d46be)
+
+
+## Passing Network Construction
 Seeking more insights from the passing dataframe, we construct a pivot table using player IDs
 and recipient IDs to ascertain the number of passes exchanged between each player pair. This
 furnishes us with a breakdown of passes made from each player to every other player, offering
@@ -82,14 +88,16 @@ valuable insights. However, we further refine our analysis by aggregating passes
 and to each player pair to discern the total number of passes between them. Utilizing this
 information, we construct a pass network illustrating pass-heavy connections between player
 pairs on the pitch
-## Passing Network Construction
-Focusing on the top 10 pairs, we visualize their passes to identify their most active zones on
-the pitch, aiding in understanding their roles in both dangerous areas and potential weaknesses.
-The passing network reveals intriguing findings, prompting us to delve deeper.
+![passes_between](https://github.com/nayeem92/Dissecting-A-Winning-Team-s-Passing-Game-Inter-Miami-vs-Toronto-FC/assets/44882242/14cde40d-6d98-436e-9214-fb8e9ad0c89f)
+![newplot (7)](https://github.com/nayeem92/Dissecting-A-Winning-Team-s-Passing-Game-Inter-Miami-vs-Toronto-FC/assets/44882242/67baf6c6-a5ab-4494-9aac-6783eb94d0c4)
+
+
 ## Key Player Pairs Passing
 Focusing on the top 10 pairs, we visualize their passes to identify their most active zones on
 the pitch, aiding in understanding their roles in both dangerous areas and potential weaknesses.
 The passing network reveals intriguing findings, prompting us to delve deeper.
+![top10pass](https://github.com/nayeem92/Dissecting-A-Winning-Team-s-Passing-Game-Inter-Miami-vs-Toronto-FC/assets/44882242/52b73741-50fb-4e85-8619-f1b35ba79e76)
+
 ## Significance of Degree Centrality
 Graph node degree centrality is a fundamental concept in network analysis, particularly in the
 study of social networks or communication networks within teams or organizations. It measures
@@ -102,17 +110,26 @@ the top players with the highest degree centrality allows us to pinpoint the key
 orchestrate the passing network. These pivotal players play crucial roles in distributing the ball
 and coordinating team movements, making them important targets for analysis and strategic
 considerations in sports tactics.
+![passgraph](https://github.com/nayeem92/Dissecting-A-Winning-Team-s-Passing-Game-Inter-Miami-vs-Toronto-FC/assets/44882242/aae01613-c564-471e-8c75-32659da861e2)
+
+
 ## Analysis of Passing Distance
 In addition to evaluating degree centrality, we delve into the passing dynamics by analyzing the
 highest average passing distance between player pairs. This analysis sheds light on instances
 where players engage in long passes, which are crucial for stretching the opposition’s defense or
 initiating quick counterattacks.
+![avg_passing](https://github.com/nayeem92/Dissecting-A-Winning-Team-s-Passing-Game-Inter-Miami-vs-Toronto-FC/assets/44882242/5cbb26ff-e686-44f8-b2ee-19e70ce6968a)
+
+
 ## Preferred Receiving Areas Identification
 Furthermore, we identify the preferred receiving areas for Inter Miami players on the pitch. By
 examining patterns in passing distribution and reception locations, we uncover strategic zones
 where players tend to position themselves to receive passes. This information is instrumental
 for opponents as it enables them to anticipate and intercept passes, disrupting the flow of the
 opposing team’s play and potentially gaining possession in advantageous positions.
+![heatmap](https://github.com/nayeem92/Dissecting-A-Winning-Team-s-Passing-Game-Inter-Miami-vs-Toronto-FC/assets/44882242/3e94591a-121a-45d5-9bfd-da2c57872e35)
+
+
 ## Visualization of Passes Leading to Shots
 Finally, we employ visualizations to highlight passes that lead to shots on goal. By tracking the
 sequences of passes that culminate in goal-scoring opportunities, we identify players who are instrumental in creating goal-scoring chances through their precise passing and vision. Opponents
@@ -120,6 +137,9 @@ should pay close attention to these players, as they possess the ability to prov
 significantly impact the outcome of the match. Understanding the passing patterns leading to
 shots allows teams to devise defensive strategies to neutralize these threats and minimize the
 opponent’s attacking prowess.
+![shotassist](https://github.com/nayeem92/Dissecting-A-Winning-Team-s-Passing-Game-Inter-Miami-vs-Toronto-FC/assets/44882242/dd6bb421-d47b-40fa-9389-15a542fcda58)
+
+
 # Findings
 ## Degree Centrality Analysis
 In terms of degree centrality, which indicates the importance of a player within the passing
