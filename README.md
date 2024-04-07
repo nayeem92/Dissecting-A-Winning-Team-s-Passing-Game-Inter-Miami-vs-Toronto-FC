@@ -5,10 +5,10 @@ View the work in Kaggle for a better view: https://www.kaggle.com/code/abdunnaye
  # Introduction
 
 We’ve opted for Inter Miami due to their impressive performance, notably scoring four goals
-even after Messi was substituted early. This prompts us to explore what Inter Miami did correctly and why other MLS teams should take note. Rather than focusing on Toronto FC’s
+even after Messi was substituted early. This prompts us to explore what Inter Miami did correctly and why other MLS teams should take note. Rather than focusing on Toronto FC’s
 shortcomings, this report will delve into Inter Miami’s strengths, aiming to identify key factors
 that could be replicated or countered.
-In what contexts might such an analytical report prove advantageous? Let us consider a hypothetical scenario: Imagine I am employed as a data analyst for a professional sports club, and
+In what contexts might such an analytical report prove advantageous? Let us consider a hypothetical scenario: Imagine I am employed as a data analyst for a professional sports club, and
 we are preparing to confront Inter Miami in our forthcoming match, directly following their
 commanding victory over Toronto FC. In this scenario, the recent match analysis could furnish
 invaluable insights to the team’s manager upon request. It could illuminate key facets of Inter
@@ -104,8 +104,8 @@ Graph node degree centrality is a fundamental concept in network analysis, parti
 study of social networks or communication networks within teams or organizations. It measures
 the number of connections or interactions that a node (in this case, a player) has with other
 nodes in the network. In the context of a passing network in sports, such as football (soccer),
-a player’s degree centrality reflects their involvement in passing the ball to teammates.By analyzing the degree centrality of players in a passing network, we can identify those who are
-most heavily involved in facilitating connections with their teammates. Players with higher degree centrality are typically more influential within the passing network, as they are frequently
+a player’s degree centrality reflects their involvement in passing the ball to teammates.By analyzing the degree centrality of players in a passing network, we can identify those who are
+most heavily involved in facilitating connections with their teammates. Players with higher degree centrality are typically more influential within the passing network, as they are frequently
 involved in passing and receiving the ball from multiple teammates. Therefore, filtering out
 the top players with the highest degree centrality allows us to pinpoint the key players who
 orchestrate the passing network. These pivotal players play crucial roles in distributing the ball
@@ -133,7 +133,7 @@ opposing team’s play and potentially gaining possession in advantageous positi
 
 ## Visualization of Passes Leading to Shots
 Finally, we employ visualizations to highlight passes that lead to shots on goal. By tracking the
-sequences of passes that culminate in goal-scoring opportunities, we identify players who are instrumental in creating goal-scoring chances through their precise passing and vision. Opponents
+sequences of passes that culminate in goal-scoring opportunities, we identify players who are instrumental in creating goal-scoring chances through their precise passing and vision. Opponents
 should pay close attention to these players, as they possess the ability to provide key assists and
 significantly impact the outcome of the match. Understanding the passing patterns leading to
 shots allows teams to devise defensive strategies to neutralize these threats and minimize the
@@ -176,7 +176,7 @@ passing ranges to advance the ball.
 - Serhiy Kryvtsov’s passes to Kamal Miller, with an average distance of 21.82 meters, also
 contributed significantly to the team’s strategic passing approach.
 ## Key Players to Neutralize
-Considering the comprehensive analysis of passing dynamics, shot creation, and passing distances, the following players emerge as critical targets for the opposition to neutralize:
+Considering the comprehensive analysis of passing dynamics, shot creation, and passing distances, the following players emerge as critical targets for the opposition to neutralize:
 - Sergio Busquets i Burgos
 - Facundo Far´ıas
 - Serhiy Kryvtsov
